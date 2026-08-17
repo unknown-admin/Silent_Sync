@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881657480590",
+    "project_id": "silentsync-c4031",
+    "storage_bucket": "silentsync-c4031.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881657480590:android:d9a92465a0abac761410df",
+        "android_client_info": {
+          "package_name": "com.silentsync.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRKIJNYZlePfhPy6lHl7RtvRw_87YFSIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
