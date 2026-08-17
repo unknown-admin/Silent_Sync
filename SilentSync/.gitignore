@@ -7,22 +7,49 @@
 .env.production
 .env.local
 
-# Firebase (managed via CI/CD)
-google-services.json
-GoogleService-Info.plist
-
 # Keystores (allow debug only)
 *.keystore
 !debug.keystore
 
-# Android
-android/app/build/
-android/build/
+# Android / Gradle
 android/.gradle/
+android/**/.gradle/
 android/.kotlin/
+android/**/.kotlin/
 android/local.properties
+**/local.properties
+android/app/build/
 android/app/release/
+android/app/debug/
+android/**/app/build/
+android/**/app/release/
+android/**/app/debug/
+android/build/
+android/**/build/
+android/**/generated/
+android/**/.cxx/
+android/**/.externalNativeBuild/
+android/**/captures/
+android/**/intermediates/
+android/**/obj/
+android/**/*.iml
 *.hprof
+*.jks
+*.keystore
+!debug.keystore
+
+# Gradle wrapper generated files (keep tracked wrapper files out of git status noise if generated locally)
+**/gradlew
+**/gradlew.bat
+**/gradle/wrapper/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/**/*.xcuserstate
+ios/**/*.xcworkspace/
+DerivedData/
 
 # Node
 node_modules/
